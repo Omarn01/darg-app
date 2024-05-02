@@ -9,6 +9,9 @@ export default function Navigation() {
           <Link to={'/'}>Home</Link>
         </li>
         <li>
+          <Link to={'/categories'}>Categories</Link>
+        </li>
+        <li>
           <Link to='/dictionary'>Dictionary</Link>
         </li>
       </ul>

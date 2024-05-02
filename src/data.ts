@@ -5,6 +5,7 @@ export const word = [
     darg: 'тукен',
   },
   // Цвета
+
   {
     id: 2,
     rus: 'красный',

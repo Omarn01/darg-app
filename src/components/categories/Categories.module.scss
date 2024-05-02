@@ -1,0 +1,17 @@
+.categories_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category {
+  font-size: 24px;
+  padding: 10px;
+  border: 1px solid #191919;
+  background-color: #333;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

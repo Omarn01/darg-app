@@ -1,0 +1,45 @@
+.header {
+  background-color: rgb(87, 87, 217);
+  padding: 5px;
+  font-weight: 700;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.search_icon {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+}
+
+.input_wrap {
+  width: 100%;
+  position: relative;
+}
+
+.input {
+  padding: 0 25px;
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #eee;
+  background-color: transparent;
+  outline: none;
+}
+
+.clear {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.list {
+  width: 100%;
+}

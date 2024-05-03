@@ -1,0 +1,32 @@
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 100%;
+}
+
+.word {
+  padding: 0 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  background-color: #1e1e1e;
+  border: 2px solid #222;
+
+  .rus {
+    width: 33.3%;
+    text-align: center;
+  }
+
+  .delimiter {
+    width: 33.3%;
+    text-align: center;
+  }
+
+  .darg {
+    width: 33.3%;
+    text-align: center;
+  }
+}

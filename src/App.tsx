@@ -5,18 +5,20 @@ import Navigation from './components/ui/navigation/Navigation'
 import Home from './components/home/Home'
 import Categories from './components/categories/Categories'
 
-import { word } from './data'
+import { category, words } from './data'
+import Category from './components/category/Category'
 
 function App() {
   return (
-    <div>
+    <div style={{ height: '100%' }}>
       <Routes>
         <Route path={'/'} element={<Home />} />
         <Route path={'/dictionary'} element={<Search />} />
         <Route
           path={'/categories'}
-          element={<Categories name='Цвета' count={word.length} />}
+          element={<Categories category={category} count={words.length} />}
         />
+        <Route path={'/categories/:id'} element={<Category />} />
       </Routes>
       <Navigation />
     </div>

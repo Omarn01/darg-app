@@ -44,7 +44,7 @@ export default function Search() {
             className={style.input}
             type='text'
             value={search}
-            onChange={e => setSearch(e.target.value)}
+            onChange={e => setSearch(e.target.value.toLowerCase())}
           />
           <div
             onClick={() => setSearch('')}

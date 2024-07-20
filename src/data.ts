@@ -130,7 +130,7 @@ export const words = [
     id: 18,
     rus: 'узкий, маленький',
     darg: 'кьакьаси',
-    category: [''],
+    category: ['animals'],
   },
   {
     id: 19,
@@ -145,15 +145,61 @@ export const category = [
     id: 1,
     rus: 'Цвета',
     eng: 'color',
+    words: [2, 3, 4, 5, 6],
   },
   {
     id: 2,
     rus: 'Еда',
     eng: 'eat',
+    words: [1, 9, 15],
   },
   {
     id: 3,
     rus: 'Животные',
     eng: 'animals',
+    words: [19],
+  },
+  {
+    id: 4,
+    rus: 'Части тела',
+    eng: 'body',
+    words: [],
   },
 ]
+
+export const colorsWords = {
+  nameRus: 'Цвета',
+  nameEng: 'colors',
+  words: [
+    {
+      id: 2,
+      rus: 'красный',
+      darg: 'xlила',
+      category: ['color'],
+    },
+    {
+      id: 3,
+      rus: 'синий',
+      darg: 'хьанцlа',
+      category: ['color'],
+    },
+    {
+      id: 4,
+      rus: 'зеленый',
+      darg: 'шиниша',
+      category: ['color'],
+    },
+    {
+      id: 5,
+      rus: 'черный',
+      darg: 'цlудара',
+      category: ['color'],
+    },
+    {
+      id: 6,
+      rus: 'белый',
+      darg: 'цlуба',
+      category: ['color'],
+    },
+  ],
+}

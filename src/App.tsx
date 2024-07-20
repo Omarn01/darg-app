@@ -5,8 +5,9 @@ import Navigation from './components/ui/navigation/Navigation'
 import Home from './components/home/Home'
 import Categories from './components/categories/Categories'
 
-import { category, words } from './data'
+import { category } from './data'
 import Category from './components/category/Category'
+import Test from './components/test/Test'
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
         <Route path={'/dictionary'} element={<Search />} />
         <Route
           path={'/categories'}
-          element={<Categories category={category} count={words.length} />}
+          element={<Categories category={category} />}
         />
         <Route path={'/categories/:id'} element={<Category />} />
+        <Route path={'/test'} element={<Test />} />
       </Routes>
       <Navigation />
     </div>

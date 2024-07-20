@@ -14,6 +14,9 @@ export default function Navigation() {
         <li>
           <Link to='/dictionary'>Dictionary</Link>
         </li>
+        <li>
+          <Link to='/test'>Test</Link>
+        </li>
       </ul>
     </div>
   )
